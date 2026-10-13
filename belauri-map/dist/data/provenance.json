@@ -1,0 +1,30 @@
+{
+  "retrieved_date": "2026-10-13",
+  "boundary": {
+    "source": "OpenStreetMap contributors",
+    "relation_id": 5927493,
+    "url": "https://www.openstreetmap.org/relation/5927493",
+    "download_url": "https://www.openstreetmap.org/api/0.6/relation/5927493/full"
+  },
+  "places": {
+    "source": "OpenStreetMap contributors",
+    "endpoint": "https://www.openstreetmap.org/api/0.6/map",
+    "method": "13 bounding-box tiles; deduplicated by OSM object ID; brickyard sites within approximately 100 m of a mapped kiln represented by the kiln; representative points clipped to Belauri polygon",
+    "counts": {
+      "school": 51,
+      "hospital": 7,
+      "kiln": 8,
+      "government": 2
+    },
+    "categories": {
+      "school": "amenity=school",
+      "hospital": "amenity hospital/clinic/doctors or healthcare hospital/clinic/health_post/centre",
+      "kiln": "industrial or product contains brick; man_made=kiln",
+      "government": "office=government or amenity=townhall, plus OSM building way/1092534990 named belauri municipality kanchanpur"
+    },
+    "completeness": "Community-mapped locations only, not a complete official inventory. Health layer includes hospitals, clinics, and health posts. Government layer includes government offices, not only municipal offices. Unnamed mapped features retain descriptive labels. Locations are current map features and are not historical 2024 locations."
+  },
+  "license": "ODbL 1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "license_url": "https://www.openstreetmap.org/copyright"
+}

@@ -1,0 +1,129 @@
+{
+  "year": 2024,
+  "source": "ERA5 via Open-Meteo Historical Weather API",
+  "source_url": "https://open-meteo.com/en/docs/historical-weather-api",
+  "request_url": "https://archive-api.open-meteo.com/v1/archive?latitude=28.72&longitude=80.35&start_date=2024-01-01&end_date=2024-12-31&hourly=wind_speed_10m,wind_direction_10m&models=era5&wind_speed_unit=ms&timezone=Asia%2FKathmandu",
+  "requested_location": {
+    "latitude": 28.72,
+    "longitude": 80.35
+  },
+  "returned_grid": {
+    "latitude": 28.75,
+    "longitude": 80.25
+  },
+  "timezone": "Asia/Kathmandu",
+  "height_m": 10,
+  "resolution": "0.25\u00b0 (approximately 25 km)",
+  "license": "CC BY 4.0",
+  "method": "Hourly 10 m wind speeds and meteorological from-directions converted to eastward u=-speed*sin(direction) and northward v=-speed*cos(direction), then averaged by calendar month in Asia/Kathmandu. From-direction calculated using atan2(-mean_u,-mean_v); arrow points 180\u00b0 opposite, toward the direction of travel. Mean speed is the scalar hourly average. Directional consistency is resultant speed divided by mean speed (0=opposing directions cancel; 1=uniform direction). A value below 0.1 is labelled variable and the arrow is hidden. Single regional ERA5 grid estimate, not a municipal spatial mean or station observation.",
+  "months": [
+    {
+      "month": 1,
+      "from_degrees": 259.05,
+      "toward_degrees": 79.05,
+      "mean_speed_ms": 1.245,
+      "resultant_speed_ms": 0.565,
+      "directional_consistency": 0.454,
+      "hours": 744
+    },
+    {
+      "month": 2,
+      "from_degrees": 304.81,
+      "toward_degrees": 124.81,
+      "mean_speed_ms": 1.703,
+      "resultant_speed_ms": 0.782,
+      "directional_consistency": 0.459,
+      "hours": 696
+    },
+    {
+      "month": 3,
+      "from_degrees": 318.96,
+      "toward_degrees": 138.96,
+      "mean_speed_ms": 1.772,
+      "resultant_speed_ms": 0.568,
+      "directional_consistency": 0.321,
+      "hours": 744
+    },
+    {
+      "month": 4,
+      "from_degrees": 300.92,
+      "toward_degrees": 120.92,
+      "mean_speed_ms": 2.531,
+      "resultant_speed_ms": 1.87,
+      "directional_consistency": 0.739,
+      "hours": 720
+    },
+    {
+      "month": 5,
+      "from_degrees": 67.96,
+      "toward_degrees": 247.96,
+      "mean_speed_ms": 1.981,
+      "resultant_speed_ms": 0.846,
+      "directional_consistency": 0.427,
+      "hours": 744
+    },
+    {
+      "month": 6,
+      "from_degrees": 99.36,
+      "toward_degrees": 279.36,
+      "mean_speed_ms": 1.781,
+      "resultant_speed_ms": 0.29,
+      "directional_consistency": 0.163,
+      "hours": 720
+    },
+    {
+      "month": 7,
+      "from_degrees": 101.47,
+      "toward_degrees": 281.47,
+      "mean_speed_ms": 1.691,
+      "resultant_speed_ms": 1.207,
+      "directional_consistency": 0.714,
+      "hours": 744
+    },
+    {
+      "month": 8,
+      "from_degrees": 105.47,
+      "toward_degrees": 285.47,
+      "mean_speed_ms": 1.622,
+      "resultant_speed_ms": 1.193,
+      "directional_consistency": 0.735,
+      "hours": 744
+    },
+    {
+      "month": 9,
+      "from_degrees": 95.04,
+      "toward_degrees": 275.04,
+      "mean_speed_ms": 1.468,
+      "resultant_speed_ms": 0.44,
+      "directional_consistency": 0.3,
+      "hours": 720
+    },
+    {
+      "month": 10,
+      "from_degrees": 39.09,
+      "toward_degrees": 219.09,
+      "mean_speed_ms": 1.261,
+      "resultant_speed_ms": 0.395,
+      "directional_consistency": 0.313,
+      "hours": 744
+    },
+    {
+      "month": 11,
+      "from_degrees": 337.81,
+      "toward_degrees": 157.81,
+      "mean_speed_ms": 1.159,
+      "resultant_speed_ms": 0.422,
+      "directional_consistency": 0.364,
+      "hours": 720
+    },
+    {
+      "month": 12,
+      "from_degrees": 281.95,
+      "toward_degrees": 101.95,
+      "mean_speed_ms": 1.31,
+      "resultant_speed_ms": 0.601,
+      "directional_consistency": 0.459,
+      "hours": 744
+    }
+  ]
+}

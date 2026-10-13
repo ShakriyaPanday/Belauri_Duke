@@ -1,0 +1,13 @@
+year,month,mean_pm25_ug_m3,min_cell_pm25_ug_m3,max_cell_pm25_ug_m3,intersecting_cells,source_url
+2024,1,80.14,70.643,87.055,155,https://satpmdata.s3.amazonaws.com/V6GL03/CNNPM25/Monthly/AS/V6GL03.CNNPM25.AS.202401-202401.nc
+2024,2,58.286,52.739,64.737,155,https://satpmdata.s3.amazonaws.com/V6GL03/CNNPM25/Monthly/AS/V6GL03.CNNPM25.AS.202402-202402.nc
+2024,3,42.651,39.975,44.413,155,https://satpmdata.s3.amazonaws.com/V6GL03/CNNPM25/Monthly/AS/V6GL03.CNNPM25.AS.202403-202403.nc
+2024,4,73.615,68.042,80.755,155,https://satpmdata.s3.amazonaws.com/V6GL03/CNNPM25/Monthly/AS/V6GL03.CNNPM25.AS.202404-202404.nc
+2024,5,52.408,47.928,54.499,155,https://satpmdata.s3.amazonaws.com/V6GL03/CNNPM25/Monthly/AS/V6GL03.CNNPM25.AS.202405-202405.nc
+2024,6,41.559,37.243,45.261,155,https://satpmdata.s3.amazonaws.com/V6GL03/CNNPM25/Monthly/AS/V6GL03.CNNPM25.AS.202406-202406.nc
+2024,7,26.379,25.319,27.441,155,https://satpmdata.s3.amazonaws.com/V6GL03/CNNPM25/Monthly/AS/V6GL03.CNNPM25.AS.202407-202407.nc
+2024,8,25.643,24.956,26.515,155,https://satpmdata.s3.amazonaws.com/V6GL03/CNNPM25/Monthly/AS/V6GL03.CNNPM25.AS.202408-202408.nc
+2024,9,26.035,21.572,33.247,155,https://satpmdata.s3.amazonaws.com/V6GL03/CNNPM25/Monthly/AS/V6GL03.CNNPM25.AS.202409-202409.nc
+2024,10,43.57,37.529,49.414,155,https://satpmdata.s3.amazonaws.com/V6GL03/CNNPM25/Monthly/AS/V6GL03.CNNPM25.AS.202410-202410.nc
+2024,11,40.492,34.184,47.169,155,https://satpmdata.s3.amazonaws.com/V6GL03/CNNPM25/Monthly/AS/V6GL03.CNNPM25.AS.202411-202411.nc
+2024,12,62.073,57.997,66.863,155,https://satpmdata.s3.amazonaws.com/V6GL03/CNNPM25/Monthly/AS/V6GL03.CNNPM25.AS.202412-202412.nc
